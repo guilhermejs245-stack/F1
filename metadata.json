@@ -1,0 +1,6 @@
+{
+  "name": "Street Drift 3D",
+  "description": "Jogo arcade 3D de drift no navegador com física ágil, garagem com customização e upgrades, efeitos visuais e pistas noturnas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

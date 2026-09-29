@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-orbitron {
+    font-family: 'Orbitron', system-ui, -apple-system, sans-serif;
+  }
+  .font-rajdhani {
+    font-family: 'Rajdhani', system-ui, -apple-system, sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  overflow: hidden;
+  background-color: #09090b;
+}
+
+canvas {
+  display: block;
+}
+
+/* Custom neon glow effects for arcade vibe */
+.neon-glow-cyan {
+  text-shadow: 0 0 10px rgba(6, 182, 212, 0.7), 0 0 20px rgba(6, 182, 212, 0.4);
+}
+.neon-glow-amber {
+  text-shadow: 0 0 10px rgba(245, 158, 11, 0.7), 0 0 20px rgba(245, 158, 11, 0.4);
+}
+.neon-glow-red {
+  text-shadow: 0 0 10px rgba(239, 68, 68, 0.7), 0 0 20px rgba(239, 68, 68, 0.4);
+}
